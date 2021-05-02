@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color:rgba(0,0,0, 1);
+    color:limegreen;
+    font-family:"verdana", sans-serif;
+ 
+}
+
+body{
+    height:100vh;
+}
+ 
+.keys {
+height:100%; 
+display:flex;
+justify-content:space-between;
+align-items:center;
+ 
+}
+
+.key {
+    border:1px solid yellow;
+    display:block;
+    padding:2vw;
+    width:100px;
+    text-align:center;
+}
+ 
+kbd {
+    display:block;
+    font-size:40px;
+}
