@@ -6,32 +6,78 @@
 
 html {
     background-color:rgba(0,0,0, 1);
-    color:limegreen;
+    color:red;
     font-family:"verdana", sans-serif;
  
 }
 
 body{
     height:100vh;
-}
  
+}
+ div.image {
+  heigth:40vh;
+   width:50%;
+   margin:0 auto;
+   display:flex;
+   justify-content:center;
+   
+ }
+img {
+  transform:scale(0.5);
+    
+}
 .keys {
 height:100%; 
 display:flex;
-justify-content:space-between;
-align-items:center;
+align-items:flex-start;
+justify-content:center;
+flex-wrap:wrap;
+width:90%;
+margin:0 auto;
  
 }
 
 .key {
-    border:1px solid yellow;
-    display:block;
-    padding:2vw;
-    width:100px;
+    
+    border:3px solid yellow;
+    width:100px; 
+    border-radius:15%;
+    margin-left:4em;
+    transition: all 0.07s;
     text-align:center;
+   flex: 1 1 12,5%;
+    transform:translateX(-2em);
+    
+   
+}
+
+.keydown {
+    border-color:limegreen;
+    transform:scale(1.1)
+    translateX(-2em);
+    box-shadow:0.1em 0.2em 0.9em red;
+ 
 }
  
+.playing {
+    transform:scale(1.1);
+    border-color:limegreen;
+    box-shadow: 0 0 10px limegreen;
+    border-width:2px;
+}
+
 kbd {
     display:block;
-    font-size:40px;
+   font-size: 2em;
+   justify-content:center;
+}
+
+
+.sound {
+    font-size:0.7rem;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color: limegreen;
+    
 }
