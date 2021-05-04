@@ -12,25 +12,15 @@ html {
 }
 
 body{
-    height:100vh;
  
-}
- div.image {
-  heigth:40vh;
-   width:50%;
-   margin:0 auto;
-   display:flex;
-   justify-content:center;
-   
- }
-img {
-  transform:scale(0.5);
-    
-}
+    height:100vh;
+    display:flex;
+}   
+ 
 .keys {
 height:100%; 
 display:flex;
-align-items:flex-start;
+align-items:center;
 justify-content:center;
 flex-wrap:wrap;
 width:90%;
@@ -48,8 +38,7 @@ margin:0 auto;
     text-align:center;
    flex: 1 1 12,5%;
     transform:translateX(-2em);
-    
-   
+    padding:1em;
 }
 
 .keydown {
