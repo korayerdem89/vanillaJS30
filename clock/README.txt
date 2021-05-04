@@ -1,0 +1,1 @@
+ Making a clock design was a quite good exercise for me, especially  for advanced use of CSS.
