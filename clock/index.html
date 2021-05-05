@@ -13,6 +13,7 @@
     <div class="hand hour-hand"></div>
     <div class="hand min-hand"></div>
     <div class="hand second-hand"></div>   
+    <div class="circle">.</div>
  
 </div>
 </div>   
@@ -20,9 +21,10 @@
     const secondHand = document.querySelector('.second-hand');
     const minsHand = document.querySelector('.min-hand');
     const hourHand = document.querySelector('.hour-hand');
+   
+  hourHand.style.background="white";
+  minsHand.style.background="brown";
  
-  hourHand.style.background="red";
-  minsHand.style.background="yellow";
 
     function setDate() {
        const now = new Date();

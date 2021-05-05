@@ -37,7 +37,14 @@ body {
     0 0 10px rgba(0,0,0,0.2);
     min-width:320px;
 }
-
+.circle {
+    font-size:15em;
+    color:white;
+    position:absolute;
+    top:-155px;
+    left:80px;
+    z-index:100;
+}
 .clock-face {
     position:relative;
     width:100%;
