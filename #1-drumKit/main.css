@@ -30,30 +30,31 @@ margin:0 auto;
 
 .key {
     
-    border:3px solid yellow;
+    border:3px solid blueviolet;
     width:100px; 
     border-radius:15%;
     margin-left:4em;
-    transition: all 0.07s;
+    transition: all 0.1s;
     text-align:center;
    flex: 1 1 12,5%;
-    transform:translateX(-2em);
+    
     padding:1em;
 }
 
 .keydown {
-    border-color:limegreen;
-    transform:scale(1.1)
-    translateX(-2em);
+    border-color:purple;
+    transform:scale(1.1);
+   transform: translateX(-2em);
     box-shadow:0.1em 0.2em 0.9em red;
  
 }
  
 .playing {
     transform:scale(1.1);
-    border-color:limegreen;
+    border-color:purplen;
     box-shadow: 0 0 10px limegreen;
     border-width:2px;
+  
 }
 
 kbd {
@@ -67,6 +68,6 @@ kbd {
     font-size:0.7rem;
     text-transform:uppercase;
     letter-spacing:1px;
-    color: limegreen;
+    color: rgb(238, 141, 238);
     
 }
