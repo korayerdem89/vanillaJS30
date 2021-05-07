@@ -1,0 +1,17 @@
+html {
+    background-color:gray;
+}
+
+
+body {
+    height:100vh;
+
+}
+
+h1 {
+    text-align:center;
+    display:block;
+    margin: 200px auto;
+    font-size: 3em;
+    font-weight:900;
+}

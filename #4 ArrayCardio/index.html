@@ -1,0 +1,88 @@
+ 
+<html>
+<link rel="stylesheet" href="main.css">
+
+<body>
+<h1>ARRAY CARDIO</h1>
+
+
+
+ <script>
+
+     const inventors=  [{ first: 'Albert', last:'Einstein', year: 1892, passed:1955},
+     {first: 'Max', last:'Planck', year: 1858, passed:1947},
+     {first: 'Nicolaus', last:'Copernicus', year: 1473, passed:1543},
+     {first: 'Johannes', last:'Kepler', year: 1571, passed:1630}];
+                   
+const people= ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick',
+'Beecher,Henry', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Bernhard, Sandra'
+,'Billings, Josh', 'Black, Elk'];
+
+//   filter
+// const fifteen= inventors.filter(inventor => (inventor.year>=1590));
+// console.log(fifteen);
+
+//  map
+// const fifteen= inventors.map(inventor => `${inventor.first}  ${inventor.last}`);
+// console.table(fifteen);
+
+
+// sort 
+// const fifteen= inventors.sort((a,b) => a.year > b.year? 1:-1);
+// console.log(fifteen);
+
+
+//reduce
+// const totalYears= inventors.reduce((total, inventor) => {
+// return  total + (inventor.passed-inventor.year);
+// }, 0);
+// console.log(totalYears);
+ 
+ 
+ //sort
+//  const oldest = inventors.sort(function(a, b){
+//  const lastGuy=a.passed-a.year;
+//  const nextGuy = b.passed-b.year;
+//  return lastGuy>nextGuy? -1:1;     
+// })
+// console.table(oldest);
+
+
+// create a list of boulevards in France include "de" anywere of the name //
+
+// const category = document.querySelector('.mw-category');
+// const link = category.document.querySelectorAll('a');
+
+// const de = links
+//                .map(name => name.textContent);
+//                .filter(streetName => streetName.includes("de")); 
+
+// console.log(de);
+
+// 7- sort Exercise 
+//sort the people alphabbetically by the last name
+//  const alpha= people.sort(function(lastOne, nextOne){
+// const [aLast, aFirst] = lastOne.split(', ');
+// const [bLast, bFirst] = nextOne.split(', ');
+ 
+// return aLast > bLast? -1: 1;
+//  });
+// console.table(alpha);
+
+//8- reduce exercise
+//Sum up the instances of each these
+
+const data = ['car', 'car','truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
+ 
+const transportation = data.reduce(function(obj, item){
+if (!obj[item]){
+obj[item]=0;
+}
+obj[item]++;
+return obj;
+}, {});
+
+console.log(transportation);
+</script>
+</body>
+</html>
